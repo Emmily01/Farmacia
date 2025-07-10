@@ -1,2 +1,0 @@
-# Farmacia
-Projeto de PSI
