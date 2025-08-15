@@ -35,36 +35,59 @@ Arquivo principal de estilo:
 static/style.css
 `
 — contém paleta de cores, responsividade e animações
+
 Estrutura de Arquivos:
+
 Arquivo Função
 app.py Define rotas, lógica de autenticação e controle de
 fluxo
+
 database.py Configura e gerencia a conexão com o banco
 SQLite
+
 modelos.py Classe User integrada ao Flask-Login para
 autenticação
+
 iniciar.py Script para inicializar o banco a partir do
 schema.sql
+
 schema.sql Script SQL para criação das tabelas no banco de
 dados
+
 requirements.txt Lista de dependências do projeto
+
 Arquivo Descrição
+
 base.html Estrutura HTML base do site com Navbar e Footer
+
 navbar.html Barra de navegação adaptável a login/usuário visitante
+
 footer.html Rodapé com informações de contato, menu rápido e redes
 sociais
+
 dashboard.html Painel do usuário com cards, produtos e formulário de contato
+
 login.html Página de login
+
 register.html Página de cadastro de usuário
+
 produtos.html Página de produtosl
+
 index.html Página inicial da aplicação
+
 404.html Página de erro interno personalizada
+
 promocoes.html Página de promoções
+
 perfil.html Página de perfil
 editar
+
 _perfil.html Página para edição de perfil
+
 sobre.html Página institucional "Sobre Nós"
+
 500.html Página de erro interno personalizada
+
 style.css Arquivo de estilo com responsividade e paleta de cores
 Tecnologias Utilizadas:
 - Backend: Flask, Flask-Login
@@ -76,6 +99,7 @@ style.css
 - Dependências: definidas em
 `requirements.txt`
 Rotas Principais:
+
 Rota Descrição
 / Página inicial, exibe index.html
 /register Registro de novos usuários
