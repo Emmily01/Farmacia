@@ -102,12 +102,21 @@ Rotas Principais:
 
 Rota Descrição
 / Página inicial, exibe index.html
+
 /register Registro de novos usuários
+
 /login Login de usuários
+
 /dashboard Painel do usuário (necessário login)
+
 /logout Faz logout do usuário
+
 /perfil Exibe informações do perfil do usuário
+
 /editar-perfil Edita dados do perfil do usuário
+
 /produtos Lista de produtos
+
 /promocoes Página de promoções
+
 /sobre Página institucional "Sobre Nós"
