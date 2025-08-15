@@ -30,7 +30,7 @@ O layout utiliza HTML5, Jinja2 e CSS3 com:
 - Animações e transições suaves em hover
 - Layout mobile-first
 Arquivo principal de estilo:
--
+
 `
 static/style.css
 `
